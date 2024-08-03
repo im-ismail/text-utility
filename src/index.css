@@ -6,31 +6,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container{
+.container {
   width: 60%;
   margin: 20px auto;
 }
 
-.title{
+.title {
   text-align: center;
   margin: 10px;
 }
 
-#text{
+#text {
   width: 100%;
   margin: 10px 0;
   padding: 5px;
 }
 
-.btn{
+.btn {
   margin-right: 5px;
-  padding: 1px 3px;
+  margin-top: 4px;
+  padding: 2px 4px;
   background-color: rgb(171, 34, 130);
   color: #fff;
   border: 1px solid black;
@@ -38,39 +40,40 @@ body {
   cursor: pointer;
 }
 
-.analyze h3{
+.analyze h3 {
   margin-top: 10px;
 }
 
-.analyze p{
+.analyze p {
   margin-top: 5px;
 }
 
-.preview h4{
+.preview h4 {
   margin-top: 10px;
 }
-.preview p{
+
+.preview p {
   margin: 5px 0;
 }
 
-.nav{
+.nav {
   display: flex;
   padding: 10px;
   background-color: rgb(151, 88, 211);
 }
 
-.nav-item{
+.nav-item {
   list-style: none;
   margin: 0 15px;
 }
 
-.nav-link{
+.nav-link {
   text-decoration: none;
   color: #fff;
 }
 
-@media (max-width: 600px){
-  .container{
+@media (max-width: 600px) {
+  .container {
     width: 90%;
   }
 }
